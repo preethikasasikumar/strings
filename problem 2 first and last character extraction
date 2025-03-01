@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		String a = "String";
+		char first_char = a.charAt(0);
+		System.out.println("The first character is : " + first_char);
+		char last_char= a.charAt(a.length()-1);
+		System.out.println("The last character is : " + last_char);
+		
+	}
+}
