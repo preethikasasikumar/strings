@@ -1,0 +1,34 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		String a = "";
+		if(a.length()==0){
+		    System.out.println("Empty String");
+		}
+		else{
+		    System.out.println("Not an Empty String");
+		}
+		
+	}
+}
+///////////////////////////////////////////////////////////
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		String a = "A apple";
+		boolean isblank=true;
+		for(int i = 0 ; i< a.length();i++){
+		   if(a.charAt(i)==' '){
+		       isblank=false;
+		   }
+		}
+		if(isblank){
+		    System.out.println("No blank space");
+		}
+		else{
+		    System.out.println("Blank space");
+		}
+	}
+}
